@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=gt510wifi
+export DEVICE=gt510lte
 export DEVICE_COMMON=gte-common
 export VENDOR=samsung
 

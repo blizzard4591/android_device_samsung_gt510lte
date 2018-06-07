@@ -1,10 +1,10 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/gt510wifi/gt510wifi-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gt510lte/gt510lte-vendor.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/gte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/gt510wifi
+LOCAL_PATH := device/samsung/gt510lte
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
@@ -15,4 +15,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510wifi/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510lte/overlay
