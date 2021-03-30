@@ -12,9 +12,6 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt510lte_eur_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
-# Ril
-BOARD_PROVIDES_LIBRIL := true
-
 # Enable QCOM FM feature
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
