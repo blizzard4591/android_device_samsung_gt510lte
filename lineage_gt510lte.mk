@@ -16,3 +16,12 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+  TARGET_DEVICE=gt510lte \
+  PRODUCT_NAME=gt510ltexx \
+  PRIVATE_BUILD_DESC="gt510ltexx-user 7.1.1 NMF26X T555XXU1CQI8 release-keys"
+
+
+BUILD_FINGERPRINT=samsung/gt510ltexx/gt510lte:7.1.1/NMF26X/T555XXU1CQI8:user/release-keys
