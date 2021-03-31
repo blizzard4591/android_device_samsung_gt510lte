@@ -39,3 +39,4 @@
     <ctrl name="rx_concurrency_disabled" value="true" />
     <ctrl name="rx_conc_max_st_ses" value="1" />
 </sound_trigger_platform_info>
+
