@@ -124,3 +124,6 @@ vendor/lib/libsmemlog.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
+
+# Bluetooth
+vendor/lib/libbtnv.so
