@@ -19,7 +19,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # Ramdisk
-BOARD_ROOT_EXTRA_FOLDERS := dsp efs firmware firmware-modem persist
+BOARD_ROOT_EXTRA_FOLDERS := efs firmware firmware-modem persist
 BOARD_ROOT_EXTRA_SYMLINKS += /data/tombstones:/tombstones
 
 # Partition sizes
