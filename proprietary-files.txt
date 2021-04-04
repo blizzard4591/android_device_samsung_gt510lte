@@ -127,3 +127,6 @@ lib/hw/sensors.msm8916.so
 
 # Bluetooth
 vendor/lib/libbtnv.so
+
+# Location Stuff
+vendor/lib/libdsi_netctrl.so
