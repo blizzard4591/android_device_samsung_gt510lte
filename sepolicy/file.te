@@ -28,6 +28,12 @@ type seemp_file, file_type;
 
 type diag_data_file, file_type, data_file_type;
 
+type sysfs_boot, fs_type, sysfs_type;
+
+# lpm sysfs files
+type sysfs_msm_stats, fs_type, sysfs_type;
+type sysfs_msm_power, fs_type, sysfs_type;
+
 type sysfs_fm, sysfs_type, fs_type;
 # for adsp to load /sys/kernel/boot_adsp/boot
 type sysfs_boot_adsp, sysfs_type, fs_type;
