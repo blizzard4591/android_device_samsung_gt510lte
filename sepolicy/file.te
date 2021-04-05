@@ -28,6 +28,9 @@ type seemp_file, file_type;
 
 type diag_data_file, file_type, data_file_type;
 
+# Files accessed by qcom-system-daemon
+type sysfs_socinfo, fs_type, sysfs_type;
+
 type sysfs_boot, fs_type, sysfs_type;
 
 # lpm sysfs files
