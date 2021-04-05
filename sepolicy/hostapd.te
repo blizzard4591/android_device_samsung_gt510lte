@@ -4,6 +4,7 @@ type hostapd_exec, exec_type, file_type;
 net_domain(hostapd)
 
 #============= hostapd ==============
+type wlan_device, dev_type;
 allow hostapd wlan_device:chr_file r_file_perms;
 
 allow hostapd self:capability { net_admin net_raw setuid setgid };
