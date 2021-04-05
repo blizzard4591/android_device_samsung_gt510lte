@@ -52,3 +52,6 @@ type sensors_socket, file_type;
 type sensors_persist_file, file_type;
 type sysfs_sensors, sysfs_type, fs_type;
 
+#audio sysfs files
+type sysfs_audio, fs_type, sysfs_type;
+
