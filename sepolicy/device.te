@@ -5,3 +5,6 @@ type smem_log_device, dev_type;
 
 type bluetooth_device, dev_type;
 type efs_block_device, dev_type;
+
+#Define thermal-engine devices
+type thermal_device, dev_type;
