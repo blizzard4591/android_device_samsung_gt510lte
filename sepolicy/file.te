@@ -28,6 +28,9 @@ type seemp_file, file_type;
 
 type diag_data_file, file_type, data_file_type;
 
+# for adsp to load /sys/kernel/boot_adsp/boot
+type sysfs_boot_adsp, sysfs_type, fs_type;
+
 type sdcard_internal, sdcard_type, fs_type, mlstrustedobject;
 type sdcard_external, sdcard_type, fs_type, mlstrustedobject;
 
