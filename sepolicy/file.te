@@ -9,7 +9,6 @@ type sysfs_mmi_touch, fs_type, sysfs_type;
 
 type app_efs_file, file_type;
 type imei_efs_file, file_type;
-type debugfs_rmt, debugfs_type, fs_type;
 type rfs_debugfs_file, file_type;
 type sensors_efs_file, file_type;
 type snd_data_file, file_type, data_file_type;
@@ -18,32 +17,4 @@ type bt_fw_file, file_type;
 type wifi_efs_file, file_type;
 
 #TMP
-#type tmp_root_mount_file, file_type;
-
-# sysfs
-type sysfs_audio, fs_type, sysfs_type;
-type sysfs_battery_supply, sysfs_type, fs_type;
-type sysfs_camera, sysfs_type, fs_type;
-type sysfs_cpu_boost, fs_type, sysfs_type;
-type sysfs_devfreq, fs_type, sysfs_type;
-type sysfs_diag, fs_type, sysfs_type;
-type sysfs_ea, fs_type, sysfs_type;
-type sysfs_esoc, sysfs_type, fs_type;
-type sysfs_fingerprint, sysfs_type, fs_type;
-type sysfs_graphics, sysfs_type, fs_type;
-type sysfs_keyboard, sysfs_type, fs_type;
-type sysfs_kgsl, sysfs_type, fs_type;
-type sysfs_lpm, fs_type, sysfs_type;
-type sysfs_mmc, sysfs_type, fs_type;
-type sysfs_mpdecision, fs_type, sysfs_type;
-type sysfs_msm_perf, fs_type, sysfs_type;
-type sysfs_msm_subsys, fs_type, sysfs_type;
-type sysfs_poweron_alarm, sysfs_type, fs_type;
-type sysfs_reclaim, sysfs_type, fs_type;
-type sysfs_sensors, sysfs_type, fs_type;
-type sysfs_socinfo, fs_type, sysfs_type;
-type sysfs_spmi_dev, sysfs_type, fs_type;
-type sysfs_ssr,  sysfs_type, fs_type;
-type sysfs_ssr_toggle,  sysfs_type, file_type;
-type sysfs_touchscreen, sysfs_type, fs_type;
-type sysfs_usb_supply, sysfs_type, fs_type;
+type tmp_root_mount_file, file_type;

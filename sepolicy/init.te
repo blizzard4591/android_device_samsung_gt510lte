@@ -1,4 +1,3 @@
-
 # This really is necessary for init.qcom.rc to manually restorecon the
 # /data/data/com.android.providers.telephony/(databases|shared_prefs)
 # symlinks. Without the manual restorecon, we would have to allow rild

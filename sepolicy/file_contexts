@@ -1,4 +1,3 @@
-
 # Binaries
 /system/bin/grep                                                                                    u:object_r:grep_exec:s0
 
@@ -31,16 +30,9 @@
 /system/bin/adsprpcd                                                                                u:object_r:adsprpcd_exec:s0
 /system/bin/netmgrd                                                                                 u:object_r:netmgrd_exec:s0
 /system/bin/macloader                                   	                                        u:object_r:macloader_exec:s0
-/system/bin/e2fsck                                                                                  u:object_r:fsck:s0
-
-# Debug
-/sys/kernel/debug/rmt_storage(/.*)?                                                                 u:object_r:debugfs_rmt:s0
 
 # sysfs - battery/charger
 /sys/devices/battery\.[0-9]+/power_supply(/.*)?         	                                        u:object_r:sysfs_batteryinfo:s0
-
-# sysfs - sensors
-/sys/devices/virtual/sensors(/.*)?                                                                  u:object_r:sysfs_sensors:s0
 
 # Vendor files
 /(vendor|system/vendor)/bin/awk                                                                     u:object_r:vendor_shell_exec:s0
@@ -61,4 +53,3 @@
 # TMP
 /firmware-modem(/.*)?     u:object_r:tmp_root_mount_file:s0
 /tombstones(/.*)?     u:object_r:tmp_root_mount_file:s0
-
