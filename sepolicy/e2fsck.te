@@ -1,3 +1,4 @@
+
 # e2fsck or any other fsck program run by init.
 #type fsck, domain;
 #type fsck_exec, exec_type, file_type;
@@ -28,3 +29,4 @@ neverallow fsck {
 neverallow { domain -init } fsck:process transition;
 neverallow domain fsck:process dyntransition;
 neverallow fsck { file_type fs_type -fsck_exec}:file entrypoint;
+
