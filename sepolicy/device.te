@@ -1,2 +1,7 @@
+
+#Define the logging device type
+type diag_device, dev_type, mlstrustedobject;
+type smem_log_device, dev_type;
+
 type bluetooth_device, dev_type;
 type efs_block_device, dev_type;
