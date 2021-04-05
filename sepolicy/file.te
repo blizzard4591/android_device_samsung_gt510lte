@@ -29,6 +29,11 @@ type diag_data_file, file_type, data_file_type;
 type sdcard_internal, sdcard_type, fs_type, mlstrustedobject;
 type sdcard_external, sdcard_type, fs_type, mlstrustedobject;
 
+#location file types
+type location_data_file, file_type, data_file_type;
+type location_socket, file_type;
+type location_app_data_file, file_type, data_file_type;
+
 #Define the qmux socket type
 type qmuxd_socket, file_type;
 
