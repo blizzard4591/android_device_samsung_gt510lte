@@ -110,3 +110,5 @@ type sysfs_kgsl_gpuclk,          fs_type, sysfs_type;
 #Define the sysfs files for usb_uicc_daemon
 type sysfs_usb_uicc, sysfs_type, fs_type;
 
+#uio sysfs
+type sysfs_uio_file, fs_type, sysfs_type;
