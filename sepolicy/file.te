@@ -47,3 +47,8 @@ type vendor_tombstone_data_file, file_type, data_file_type;
 #Define the qmux socket type
 type qmuxd_socket, file_type;
 
+# Sensor file types
+type sensors_socket, file_type;
+type sensors_persist_file, file_type;
+type sysfs_sensors, sysfs_type, fs_type;
+
