@@ -17,3 +17,9 @@ type qdss_device, dev_type;
 #Add for storage pertitions for EFS partitions
 type modem_efs_partition_device, dev_type;
 
+
+#Misc partition
+type misc_partition, dev_type;
+
+#Bootselect partition
+type bootselect_device, dev_type;
