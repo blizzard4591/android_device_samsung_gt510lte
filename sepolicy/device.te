@@ -8,3 +8,8 @@ type efs_block_device, dev_type;
 
 #Define thermal-engine devices
 type thermal_device, dev_type;
+
+type wcnss_device, dev_type;
+
+# Define QDSS devices
+type qdss_device, dev_type;
