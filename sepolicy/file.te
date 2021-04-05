@@ -16,5 +16,3 @@ type touchpanel_sysfs, fs_type, sysfs_type;
 type bt_fw_file, file_type;
 type wifi_efs_file, file_type;
 
-#TMP
-type tmp_root_mount_file, file_type;
