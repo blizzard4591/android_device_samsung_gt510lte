@@ -40,6 +40,9 @@ type bt_firmware_file, fs_type, contextmount_type;
 # Default type for anything under /firmware.
 type firmware_file, fs_type, contextmount_type;
 
+# /data/vendor/tombstones/ file
+type vendor_tombstone_data_file, file_type, data_file_type;
+
 #Define the qmux socket type
 type qmuxd_socket, file_type;
 
