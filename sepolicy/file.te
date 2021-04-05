@@ -17,3 +17,7 @@ type bt_fw_file, file_type;
 type wifi_efs_file, file_type;
 
 type persist_file, file_type;
+
+#Define the qmux socket type
+type qmuxd_socket, file_type;
+
