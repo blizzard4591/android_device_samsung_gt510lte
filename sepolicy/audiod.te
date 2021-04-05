@@ -1,8 +1,3 @@
-
-# audio deamon
-type audiod, domain;
-type audiod_exec, exec_type, file_type;
-init_daemon_domain(audiod)
 #====================audiod==========================
 allow audiod audiod:capability { dac_read_search dac_override sys_nice };
 allow audiod snd_data_file:dir { add_name open search write };
