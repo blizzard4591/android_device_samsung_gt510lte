@@ -35,6 +35,9 @@
 # sysfs - battery/charger
 /sys/devices/battery\.[0-9]+/power_supply(/.*)?         	                                        u:object_r:sysfs_batteryinfo:s0
 
+# sysfs - sensors
+/sys/devices/virtual/sensors(/.*)?                                                                  u:object_r:sysfs_sensors:s0
+
 # Vendor files
 /(vendor|system/vendor)/bin/awk                                                                     u:object_r:vendor_shell_exec:s0
 
