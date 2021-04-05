@@ -17,7 +17,7 @@ type bt_fw_file, file_type;
 type wifi_efs_file, file_type;
 
 #TMP
-type tmp_root_mount_file, file_type;
+#type tmp_root_mount_file, file_type;
 
 # sysfs
 type sysfs_audio, fs_type, sysfs_type;
