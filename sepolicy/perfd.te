@@ -1,2 +1,7 @@
 #============= perfd ==============
+type perfd, domain, mlstrustedsubject;
+type perfd_exec, exec_type, file_type;
+
+init_daemon_domain(perfd)
+
 unix_socket_connect(perfd, thermal, thermal-engine)
