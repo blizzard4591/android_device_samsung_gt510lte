@@ -133,3 +133,4 @@ vendor/lib/libbtnv.so
 
 # Location Stuff
 vendor/lib/libdsi_netctrl.so
+vendor/lib/libqdi.so
