@@ -45,7 +45,7 @@ lib/soundfx/libaudiosaplus_sec.so:vendor/lib/soundfx/libaudiosaplus_sec.so
 lib/libfloatingfeature.so:vendor/lib/libfloatingfeature.so
 
 # Camera
-lib/hw/camera.vendor.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so
+lib/hw/camera.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so
 lib/libaec_algo_front.so:vendor/lib/libaec_algo_front.so
 lib/libaec_algo_rear.so:vendor/lib/libaec_algo_rear.so
 lib/libaf_algo_rear.so:vendor/lib/libaf_algo_rear.so
@@ -126,7 +126,7 @@ vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
 # Sensors
-lib/hw/sensors.vendor.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
+lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
 
 # Bluetooth
 vendor/lib/libbtnv.so
@@ -134,3 +134,10 @@ vendor/lib/libbtnv.so
 # Location Stuff
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libqdi.so
+
+# Skia dependency
+lib/libAstcEnc.so:vendor/lib/libAstcEnc.so
+lib/libquramimagecodec.so:vendor/lib/libquramimagecodec.so
+
+# HEVC Decoder
+vendor/lib/libmmosal.so:vendor/lib/libmmosal.so
