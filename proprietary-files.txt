@@ -135,9 +135,6 @@ vendor/lib/libQSEEComAPI.so
 # Sensors
 lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
 
-# Bluetooth
-vendor/lib/libbtnv.so
-
 # Location Stuff
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libqdi.so
