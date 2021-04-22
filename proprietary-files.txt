@@ -128,7 +128,7 @@ vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
 # QSEEComp
-bin/qseecomd:bin/qseecomd
+bin/qseecomd:vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 
 # Sensors
