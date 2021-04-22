@@ -1,11 +1,21 @@
+# Google Play Store
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.opengles.version=196608
+
+# turn onscreen nav
+PRODUCT_PROPERTY_OVERRIDES += \
+	qemu.hw.mainkeys=0
+
+PRODUCT_PACKAGES += \
+	FlipFlap
+
 # CABL
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qualcomm.cabl=0
 
 # RAM
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.low_ram=false \
-	ro.config.zram=false
+	ro.config.low_ram=false
 
 # Screen
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -14,7 +24,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnCdmaDevice=0
-
-#OpenGles 2.0
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.opengles.version=196608
