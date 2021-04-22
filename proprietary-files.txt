@@ -107,6 +107,8 @@ lib/libreference-ril.so:vendor/lib/libreference-ril.so
 lib/libril.so:vendor/lib/libril.so
 lib/librilutils.so:vendor/lib/librilutils.so
 lib/libsec-ril.so:vendor/lib/libsec-ril.so
+lib/librmnetctl.so:vendor/lib/librmnetctl.so
+vendor/lib/liblqe.so
 
 # Qualcomm framework
 vendor/lib/lib-sec-disp.so
