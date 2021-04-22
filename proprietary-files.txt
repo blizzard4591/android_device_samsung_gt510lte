@@ -125,6 +125,10 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
+# QSEEComp
+bin/qseecomd:vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
+
 # Sensors
 lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
 
