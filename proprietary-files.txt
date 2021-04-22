@@ -106,6 +106,7 @@ vendor/lib/libqomx_jpegenc.so
 lib/libreference-ril.so:vendor/lib/libreference-ril.so
 lib/libril.so:vendor/lib/libril.so
 lib/librilutils.so:vendor/lib/librilutils.so
+lib/libsec-ril.so:vendor/lib/libsec-ril.so
 
 # Qualcomm framework
 vendor/lib/lib-sec-disp.so
