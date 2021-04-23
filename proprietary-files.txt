@@ -104,9 +104,6 @@ vendor/lib/libqomx_jpegenc.so
 
 # Ril (Used by audio hal)
 lib/libreference-ril.so
-# Hex-Edited, needs old libcutils.so
-lib/libril.so|7742b48187dbbeff9d2b4cbab73eb06d49b5dbb0
-lib/librilutils.so
 # Hex-Edited, needs old libprotobuf-cpp-full
 lib/libsec-ril.so|a562862e2c9ab4a0913fb71bf4e0a14fbc815fcc
 lib/librmnetctl.so
