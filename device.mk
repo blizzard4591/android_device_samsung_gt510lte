@@ -35,16 +35,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/A05QF_sr544_module_info.xml:system/etc/C05QF_sr544_module_info.xml
 
 # Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
-    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
-
-# RIL
-PRODUCT_PACKAGES += \
-    libril \
-    librilutils \
-    rild
-
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510lte/overlay
