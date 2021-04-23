@@ -17,7 +17,8 @@ lib/libaudio_soundtrigger.so
 lib/libfloatingfeature.so
 lib/libsamsungearcare.so
 lib/libsamsungeffect.so
-lib/libSamsungPkcs11Wrapper.so
+# Hex-Edited, needs old libprotobuf-cpp-lite.so
+lib/libSamsungPkcs11Wrapper.so|3ac117283ecba683f678fc3df5aade29040c0218
 lib/libSamsungPostProcess.so
 lib/libsamsungpowersound.so
 lib/libSamsungPreProcess.so
@@ -103,9 +104,11 @@ vendor/lib/libqomx_jpegenc.so
 
 # Ril (Used by audio hal)
 lib/libreference-ril.so
-lib/libril.so
+# Hex-Edited, needs old libcutils.so
+lib/libril.so|7742b48187dbbeff9d2b4cbab73eb06d49b5dbb0
 lib/librilutils.so
-lib/libsec-ril.so
+# Hex-Edited, needs old libprotobuf-cpp-full
+lib/libsec-ril.so|a562862e2c9ab4a0913fb71bf4e0a14fbc815fcc
 lib/librmnetctl.so
 vendor/lib/liblqe.so
 
