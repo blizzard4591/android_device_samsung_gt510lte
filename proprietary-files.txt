@@ -11,8 +11,8 @@ etc/Speaker_cal.acdb
 
 # Audio
 lib/hw/audio.primary.msm8916.so
-lib/libaudio-resampler.so
-lib/libaudioroute.so
+#lib/libaudio-resampler.so
+#lib/libaudioroute.so
 lib/libaudio_soundtrigger.so
 lib/libfloatingfeature.so
 lib/libsamsungearcare.so
@@ -102,24 +102,21 @@ vendor/lib/liboemcamera.so
 vendor/lib/libQjpeg.so
 vendor/lib/libqomx_jpegenc.so
 
-# Ril (Used by audio hal)
-lib/libreference-ril.so
-# Hex-Edited, needs old libcutils.so
-lib/libril.so|7742b48187dbbeff9d2b4cbab73eb06d49b5dbb0
-lib/librilutils.so
-bin/rild
-lib/libradio.so
-lib/libradioservice.so
+# Radio
+bin/qmuxd:vendor/bin/qmuxd
+bin/rfs_access:vendor/bin/rfs_access
+bin/rmt_storage:vendor/bin/rmt_storage
+vendor/lib/libril-qcril-hook-oem.so
+lib/libprotobuf-cpp-full.so:vendor/lib/libprotobuf-cpp-full-old.so
+lib/libprotobuf-cpp-lite.so:vendor/lib/libprotobuf-cpp-lite-old.so
 # Hex-Edited, needs old libprotobuf-cpp-full
-lib/libsec-ril.so|a562862e2c9ab4a0913fb71bf4e0a14fbc815fcc
-lib/librmnetctl.so
-vendor/lib/liblqe.so
+lib/libsec-ril.so:vendor/lib/libsec-ril.so|a562862e2c9ab4a0913fb71bf4e0a14fbc815fcc
 
 # Qualcomm framework
-lib/lib-sec-disp.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/libnetmgr.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqmi.so
 vendor/lib/libqmiservices.so
@@ -129,9 +126,6 @@ vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
-vendor/lib/libqmiservices.so
-vendor/lib/libqmi.so
-vendor/lib/libsmemlog.so
 
 # QSEEComp
 bin/qseecomd:vendor/bin/qseecomd
