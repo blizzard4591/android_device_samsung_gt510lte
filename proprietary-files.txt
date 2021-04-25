@@ -56,7 +56,7 @@ lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_selfie_camera_lite.so
 lib/libawb_algo_front.so
 lib/libawb_algo_rear_al.so
-lib/libcamera_metadata.so
+#lib/libcamera_metadata.so
 lib/libcodecsolution.so
 lib/libjpeg.so
 lib/libmmcamera2_stats_algorithm.so
@@ -107,10 +107,14 @@ bin/qmuxd:vendor/bin/qmuxd
 bin/rfs_access:vendor/bin/rfs_access
 bin/rmt_storage:vendor/bin/rmt_storage
 vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/libril-qc-radioconfig.so
 lib/libprotobuf-cpp-full.so:vendor/lib/libprotobuf-cpp-full-old.so
 lib/libprotobuf-cpp-lite.so:vendor/lib/libprotobuf-cpp-lite-old.so
 # Hex-Edited, needs old libprotobuf-cpp-full
 lib/libsec-ril.so:vendor/lib/libsec-ril.so|a562862e2c9ab4a0913fb71bf4e0a14fbc815fcc
+vendor/lib/libperipheral_client.so
+vendor/lib/libsmemlog.so
+vendor/lib/liblqe.so
 
 # Qualcomm framework
 vendor/lib/libdiag.so
